@@ -6,19 +6,26 @@ canvas {
     box-sizing: border-box;
 }
 
-.attributes {
+#attributes {
     position: absolute;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     top: 0;
     right: 0;
-    background: blue;
+    background: rgb(28, 45, 45);
     width: 250px;
-    height: 400px;
     color: white;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .item {
-    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+    padding: 3px;
+    border: 1px solid white;
+
 }
 
