@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+}
+
+canvas {
+    box-sizing: border-box;
+}
+
+.attributes {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    background: blue;
+    width: 250px;
+    height: 400px;
+    color: white;
+}
+
+.item {
+    margin-top: 10px;
+}
+
